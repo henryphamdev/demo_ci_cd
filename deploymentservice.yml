@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nodeapp
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nodeapp
@@ -31,6 +31,7 @@ spec:
   selector:
     app: nodeapp 
   type: LoadBalancer
+  externalIPs: 192.168.126.54
   ports:
   - protocol: TCP
     port: 5000
