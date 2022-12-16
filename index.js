@@ -3,7 +3,7 @@ var app = express();
 var ip = require("ip");
 
 app.get('/', function (req, res) {
-    res.send(`{ "response": "Hello From Henrypham, message response from server internal: ${ip.address()}" }`);
+    res.send(`{ "response": "Hello From Henrypham, message response from server internal: ${ip.address()} ahihi" }`);
 });
 
 app.get('/will', function (req, res) {
