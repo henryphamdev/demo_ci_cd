@@ -1,8 +1,9 @@
 var express = require('express');
 var app = express();
+var ip = require("ip");
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello From Henrypham" }');
+    res.send(`{ "response": "Hello From Henrypham, message response from server internal: ${ip.address()}" }`);
 });
 
 app.get('/will', function (req, res) {

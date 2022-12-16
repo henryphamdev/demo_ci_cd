@@ -4,7 +4,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "ip": "^2.0.0"
   },
   "devDependencies": {
     "mocha": "9.1.1",
