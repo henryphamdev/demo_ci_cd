@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: henrypham/nodeapp:latest
+        image: henrypham/nodeapp:1.0.0
         ports:
         - containerPort: 3000
         
