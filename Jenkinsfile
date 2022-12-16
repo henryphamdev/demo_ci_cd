@@ -1,8 +1,8 @@
 pipeline {
 
   environment {
-    // dockerimagename = "thetips4you/nodeapp"
-    // dockerImage = ""
+    dockerimagename = "thetips4you/nodeapp"
+    dockerImage = ""
   }
 
   agent any
