@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: henrypham/demo_ci_cd:1.0.0
+        image: henrypham/demo_ci_cd:1.0.1
         ports:
         - containerPort: 3000
         
