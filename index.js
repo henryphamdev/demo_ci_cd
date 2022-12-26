@@ -10,7 +10,7 @@ app.get('/will', function (req, res) {
     res.send('{ "response": "Hello World ci/cd  " }');
 });
 app.get('/ready', function (req, res) {
-    res.send('{ "response": " Great!, It works!" }');
+    res.send('{ "response": " Great!, It works!" } ');
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;
